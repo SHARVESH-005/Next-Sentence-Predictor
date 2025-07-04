@@ -31,5 +31,5 @@ if st.button("Generate Next Sentence"):
             eos_token_id=tokenizer.eos_token_id
         )
         output = tokenizer.decode(output_ids[0], skip_special_tokens=True)
-        st.markdown("### 📝 Predicted Continuation:")
+        st.markdown("### Predicted Continuation:")
         st.write(output)
