@@ -11,10 +11,10 @@ def load_model():
 
 tokenizer, model = load_model()
 
-st.title("🧠 Next Sentence Predictor")
-st.write("Enter a sentence and let GPT-2 generate what comes next.")
+st.title("Next Sentence Predictor")
+st.write("Enter a sentence and generate what comes next.")
 
-user_input = st.text_input("✍️ Type your sentence:")
+user_input = st.text_input("Type your sentence:")
 
 if st.button("Generate Next Sentence"):
     if user_input.strip() == "":
