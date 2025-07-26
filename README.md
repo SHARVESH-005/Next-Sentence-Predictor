@@ -29,11 +29,5 @@ To build an intuitive interface where users can input a sentence, and the app ge
 4. Output is displayed interactively using Streamlit.
 
 ---
-
-## Installation
-
-1. **Clone this repo**
-
-```bash
-git clone https://github.com/your-username/gpt2-next-sentence.git
-cd gpt2-next-sentence
+https://next-sentence-predictor-xwywromxrkdhtzxnnypxpq.streamlit.app/
+https://courses.vit.skillsnetwork.site/certificates/dcf849815eb6418d84563a292cb4f5c7
